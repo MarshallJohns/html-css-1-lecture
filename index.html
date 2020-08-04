@@ -7,11 +7,23 @@
     <meta name="author" content="Marshall Johnson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>HTML 1 lecture</title>
+    <!-- Link tags in head best for Styling -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- style tag frowned upon  -->
+    <style>
+        a {
+            font-size: 24px;
+            font-family: cursive;
+        }
+
+    </style>
+
     <header>
-        <h1>HTML/CSS 1 Lecture Code</h1>
+        <!-- inline style(style attribute) frowned upon -->
+        <h1 style="color: blue; font-size: 10px;">HTML/CSS 1 Lecture Code</h1>
         <nav>
             <a href="https://www.google.com">Home</a>
             <a href="https://www.facebook.com">About</a>
@@ -31,7 +43,9 @@
         <input type="radio" >
         <input type="email" placeholder="Your email Here">
         <button>Click Me!!</button>
-        <img src="https://popicon.life/wp-content/uploads/2018/07/169toucansam.jpg" alt="Toucan Sam">
+        <br>
+        <img class="big-pic" src="https://popicon.life/wp-content/uploads/2018/07/169toucansam.jpg" alt="Toucan Sam">
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab totam aspernatur perferendis, temporibus reiciendis, nam mollitia similique ea placeat impedit vero error quia! Tenetur culpa perferendis facere ea pariatur.</article>
     </div>
 </body>
 </html>
