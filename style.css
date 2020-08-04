@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     color: red;
 
@@ -5,9 +9,38 @@ a {
 
 .big-pic {
     width: 150px;
+    float: left;
+}
+
+.big-pic:hover {
+    width: 500px;
+   
 }
 
 article {
     display: inline-block;
     width: 50vw;
+}
+
+.outer-box {
+    width: 25vw;
+    height: 25vw;
+    border: 1 px solid black;
+    padding: 10px;
+    margin: 25px;
+    background: aquamarine;
+}
+
+
+.inner-box {
+    background: orange;
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+    padding: 8px;
+
+}
+
+#second-box {
+    background: red;
 }
